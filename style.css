@@ -1,4 +1,51 @@
 * {
     box-sizing: border-box;
+}
+body, html {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header {
     text-align: center;
+    color: white;
+    background-color: black;
+    opacity: .8; 
+    width: 300px;
+}
+form {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    opacity: .8;
+    width: 300px;
+    text-align: center
+    }
+li, ul {
+    text-align: left;
+    list-style: none;
+}
+button, input, label{
+    cursor: pointer;
+}
+/* These are background images for aesthic purposes only. No information is being
+   conveyed so an alt tag for accesibility is not needed as it would be for an img tag.*/
+.stained {
+    background-image: url(pics/stained.jpg);
+}
+.broken {
+    background-image: url(pics/broken.jpg);
+}
+.building {
+    background-image: url(pics/building.jpg);
 }
